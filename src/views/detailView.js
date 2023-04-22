@@ -61,7 +61,6 @@ export async function detailView(ctx) {
             hasBooleat.isOwner = true;
         }
     }
-    console.log(hasBooleat)
     ctx.renderSection(detailTemplate(dataOfferts, hasBooleat, allAgree, onDelete, onAgree));
 
     async function onDelete(ev) {
