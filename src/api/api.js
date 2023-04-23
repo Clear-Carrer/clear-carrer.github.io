@@ -1,6 +1,6 @@
 import { getSession } from "../utility.js";
 
-const host = 'http://slavo-v.top:4010';
+const host = 'https://slavo-v.top:4010';
 
 async function request(method, url, data) {
     const options = {
